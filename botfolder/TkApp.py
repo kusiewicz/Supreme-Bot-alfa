@@ -4,7 +4,7 @@ from datetime import datetime
 from tkinter import *
 import tkinter as tk
 import tkinter.ttk as ttk 
-from PIL import Image, ImageTk
+
 
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
@@ -306,6 +306,6 @@ if __name__ == "__main__":
     app = App()
     app.title("@@kusy")
     app.wm_resizable(0,0)
-    app.wm_iconbitmap("./botfolder/xaxa.ico") 
+    app.wm_iconbitmap("./xaxa.ico") 
     app.mainloop()
     
